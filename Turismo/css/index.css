@@ -1,4 +1,7 @@
 div{
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	padding: 2%;
+}
+.contenedor{
+	background-image: url(../img/turismo-colombia.jpg);
 }
