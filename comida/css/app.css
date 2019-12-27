@@ -1,0 +1,84 @@
+html {
+	width: 1024px;
+}
+body {
+	background-color: aqua;
+	background-image: url(../img/interior-de-la-cocina.jpg);
+}
+/*div {
+	border: 1px solid black;
+}*/
+.blog-contenido {
+	background-color: rgba(165, 51, 255,0.5);
+}
+header {
+	color: white;
+}
+.izq-colum {
+	background-color: white;
+}
+.buscarIco {
+	width: 80%;
+	display: inline;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 0 auto;
+}
+form {
+	margin: 2%;
+	width: 100%;
+}
+.favoritos img {
+	/**
+	display: flex;**/
+	width: 30%;
+	padding: 2%;
+}
+.contenido img {
+	width: 100%;
+	padding: 2%;
+}
+.der-colum {
+	background-color: white;
+	margin-bottom: 2%;
+}
+.social-box {
+	border: 1px solid darkgray;
+	color: dimgray;
+	margin-bottom: 1%;
+	border-radius: 30%;
+}
+p {
+	margin: 1%;
+	text-align: justify;
+	padding: 2%;
+}
+.Historial ul {
+	list-style-type: none;
+}
+footer {
+	background-color: black;
+	color: white;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+@media (min-width:361px) and (max-width: 768px) {
+	header {
+	display: none;
+	}
+	.izq-colum {
+	display: none;
+	}
+}
+
+@media (max-width: 360px) {
+	header {
+	display: none;
+	}
+	.izq-colum {
+	display: none;
+	}
+}
